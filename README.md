@@ -10,7 +10,7 @@
 
 ### 🚀 About Me
 
-I am an **AI Engineer Intern** at **Best HR Solution**. I focus on building practical applications that leverage LLMs to solve real-world business problems. My approach combines a solid **Django/React** foundation with modern AI integration patterns.
+I am an **AI Engineer Intern**. I focus on building practical applications that leverage LLMs to solve real-world business problems. My approach combines a solid **Django/React** foundation with modern AI integration patterns.
 
 - 🏗️ **Current Internship:** Developing **Talent Vision** — an AI-powered system to automate HR workflows (OCR & Resume Parsing).
 - 🛠️ **Specialty:** Building **MCP Servers** (Model Context Protocol) to bridge the gap between LLMs and local/structured data.
