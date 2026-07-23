@@ -14,7 +14,6 @@ I am an **AI Engineer & AI Agent Developer** focused on bridging enterprise back
 
 My engineering philosophy: **Bring AI models out of notebooks into production-ready, type-safe, and deterministic software.**
 
-- 💼 **Current Role:** AI Engineer at **Best HR Solution** — Architecting AI workflows, document intelligence pipelines, and Hybrid Retrieval services.
 - 🧠 **Specialty:** **Agentic RAG**, **MCP Servers** (Model Context Protocol), **Fact-Grounding Guardrails**, and Full-Text Search engineering (PostgreSQL FTS, pgvector, ChromaDB).
 - 🛠️ **System Minded:** Refactoring complex orchestration code into scalable domain services, optimizing data pipelines, and containerizing microservices for cloud deployment (**AWS, GCP, Docker**).
 
