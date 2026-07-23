@@ -1,8 +1,8 @@
-# Hi, I'm Truong Nguyen 👋
+# Hi, I'm Nguyen Nhat Truong 👋
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=AI+Engineer;Backend+Developer;AI+Integration+Specialist;MCP+Developer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=500&lines=AI+Engineer;AI+Agent+Developer;Agentic+RAG+%26+LangGraph;MCP+Server+Architect" alt="Typing SVG" />
   </a>
 </p>
 
@@ -10,62 +10,82 @@
 
 ### 🚀 About Me
 
-I am an **AI Engineer** specializing in backend development and AI application integration. I focus on building pragmatic, robust systems that bridge deep learning capabilities (Python, PyTorch) with scalable backend architectures (TypeScript/Node.js, Django). 
+I am an **AI Engineer & AI Agent Developer** focused on bridging enterprise backend architectures (**Django, NestJS, FastAPI**) with stateful AI automation (**LangGraph, n8n, LiteLLM**)[cite: 1].
 
-My engineering philosophy is simple: **bring models out of notebooks and into production-ready software.**
+My engineering philosophy: **Bring AI models out of notebooks into production-ready, type-safe, and deterministic software.**[cite: 1]
 
-- 💼 **Current Focus:** Developing production-grade AI integration workflows and building agentic backends.
-- 🛠️ **Specialty:** Building **MCP Servers** (Model Context Protocol) to seamlessly connect LLM agents with local databases and structured systems.
-- 🧠 **System-Minded:** Designing reliable APIs, optimizing data flows (PostgreSQL with FTS5, Redis), and containerizing services for clean deployment.
+- 💼 **Current Role:** AI Engineer at **Best HR Solution** — Architecting AI workflows, document intelligence pipelines, and Hybrid Retrieval services[cite: 1].
+- 🧠 **Specialty:** **Agentic RAG**, **MCP Servers** (Model Context Protocol), **Fact-Grounding Guardrails**, and Full-Text Search engineering (PostgreSQL FTS, pgvector, ChromaDB)[cite: 1].
+- 🛠️ **System Minded:** Refactoring complex orchestration code into scalable domain services, optimizing data pipelines, and containerizing microservices for cloud deployment (**AWS, GCP, Docker**)[cite: 1].
 
 ---
 
 ### 🛠 Tech Stack
 
-**Languages & Backend**
+**AI & Backend Orchestration**
 <div align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1C1C1C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 </div>
 
 **Databases & Infrastructure**
 <div align="left">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge&logo=database&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fly.io-2432D1?style=for-the-badge&logo=flydotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 </div>
 
 ---
 
 ### 📂 Featured Projects
 
-#### 🔍 **Talent Vision**
-*An AI-powered recruitment suite automating CV processing and document management.*
-- **Core Stack:** Django, Python, PaddleOCR, Gemini API, Docker.
-- **Impact:** Engineered robust backend APIs to parse unstructured CV data into structured schemas, optimizing recruiting workflows.
+#### 🎯 **Resume Matcher — AI Resume Tailoring Platform**
+*An AI-powered resume generator with strict fact-grounding guardrails to prevent hallucination.*[cite: 1]
+- **Key Highlights:** Engineered a `Career Brain` fact store with `pgvector` retrieval; built a grounding-guard that falls back to deterministic generation if the LLM references unverifiable experience[cite: 1]. Refactored a 2,500-line monolithic router into clean domain services[cite: 1].
+- **Tech Stack:** Python, FastAPI, PostgreSQL (JSONB + pgvector), LiteLLM, Next.js, Docker, GCP Cloud Run[cite: 1].
 
-#### ⚖️ **Legal MCP Servers**
-*Connecting AI Agents to Vietnamese and Korean Legal Databases.*
-- **Core Stack:** TypeScript (ESM), Model Context Protocol (MCP) SDK, PostgreSQL, Zod, Fly.io.
-- **Impact:** Built and deployed specialized legal retrieval systems, providing real-time, structured legal context directly to LLM agents.
+#### 🤖 **Interactive 3D AI Chatbot with Agentic RAG**
+*An asynchronous, stateful 3D AI avatar capable of real-time memory retrieval and conversational interaction.*[cite: 1]
+- **Key Highlights:** Architected a FastAPI & WebSocket backend connecting ChromaDB memory retrieval and **LangGraph** orchestration[cite: 1]. Achieved real-time performance through sentence-level audio buffering and streaming[cite: 1].
+- **Tech Stack:** Python, FastAPI, WebSockets, LangGraph, ChromaDB, Ollama, React Three Fiber[cite: 1].
+
+#### 📑 **Vietnamese OCR & NLP Document Intelligence Research**
+*Deep learning research for high-accuracy Vietnamese text recognition from noisy document images.*[cite: 1]
+- **Key Highlights:** Architected a hybrid model combining a ResNet18 visual encoder with a 6-layer Transformer decoder (8 attention heads) to overcome Vietnamese diacritics and character alignment challenges[cite: 1]. Trained on a 10,000-sample dataset across a 233-character vocabulary[cite: 1], boosting validation accuracy from **17.55% to 63.18%**[cite: 1].
+- **Tech Stack:** Python, PyTorch, ResNet18, Transformer Decoder, NLP, ONNX[cite: 1].
+
+---
+
+### 🏆 Achievements & Certifications
+
+- 🏆 **Top 10** — WebDev Studios Competition (2025)[cite: 1]
+- 📜 **Google Data Analytics Professional Certificate** — Coursera (2025)[cite: 1]
+- 🎓 **B.S. in Computer Science** — Ton Duc Thang University (Major GPA: 8.5 / 10)[cite: 1]
+- 🌐 **English Proficiency** — TOEIC 4-Skills 840/990 (L&R), 270/400 (S&W)[cite: 1]
 
 ---
 
 ### 📊 Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
 </p>
 
 ---
 
 ### 📫 Connect with me
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:truong.nhat3040@gmail.com)
+[![Location](https://img.shields.io/badge/Location-Ho_Chi_Minh_City,_Vietnam-red?style=flat&logo=googlemaps&logoColor=white)](#)
 
 ---
-*"Building useful things, one commit at a time."*
+*"Bringing models out of notebooks and into production-ready software."*[cite: 1]
