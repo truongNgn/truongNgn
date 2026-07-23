@@ -10,13 +10,13 @@
 
 ### 🚀 About Me
 
-I am an **AI Engineer & AI Agent Developer** focused on bridging enterprise backend architectures (**Django, NestJS, FastAPI**) with stateful AI automation (**LangGraph, n8n, LiteLLM**)[cite: 1].
+I am an **AI Engineer & AI Agent Developer** focused on bridging enterprise backend architectures (**Django, NestJS, FastAPI**) with stateful AI automation (**LangGraph, n8n, LiteLLM**).
 
-My engineering philosophy: **Bring AI models out of notebooks into production-ready, type-safe, and deterministic software.**[cite: 1]
+My engineering philosophy: **Bring AI models out of notebooks into production-ready, type-safe, and deterministic software.**
 
-- 💼 **Current Role:** AI Engineer at **Best HR Solution** — Architecting AI workflows, document intelligence pipelines, and Hybrid Retrieval services[cite: 1].
-- 🧠 **Specialty:** **Agentic RAG**, **MCP Servers** (Model Context Protocol), **Fact-Grounding Guardrails**, and Full-Text Search engineering (PostgreSQL FTS, pgvector, ChromaDB)[cite: 1].
-- 🛠️ **System Minded:** Refactoring complex orchestration code into scalable domain services, optimizing data pipelines, and containerizing microservices for cloud deployment (**AWS, GCP, Docker**)[cite: 1].
+- 💼 **Current Role:** AI Engineer at **Best HR Solution** — Architecting AI workflows, document intelligence pipelines, and Hybrid Retrieval services.
+- 🧠 **Specialty:** **Agentic RAG**, **MCP Servers** (Model Context Protocol), **Fact-Grounding Guardrails**, and Full-Text Search engineering (PostgreSQL FTS, pgvector, ChromaDB).
+- 🛠️ **System Minded:** Refactoring complex orchestration code into scalable domain services, optimizing data pipelines, and containerizing microservices for cloud deployment (**AWS, GCP, Docker**).
 
 ---
 
@@ -48,28 +48,28 @@ My engineering philosophy: **Bring AI models out of notebooks into production-re
 ### 📂 Featured Projects
 
 #### 🎯 **Resume Matcher — AI Resume Tailoring Platform**
-*An AI-powered resume generator with strict fact-grounding guardrails to prevent hallucination.*[cite: 1]
-- **Key Highlights:** Engineered a `Career Brain` fact store with `pgvector` retrieval; built a grounding-guard that falls back to deterministic generation if the LLM references unverifiable experience[cite: 1]. Refactored a 2,500-line monolithic router into clean domain services[cite: 1].
-- **Tech Stack:** Python, FastAPI, PostgreSQL (JSONB + pgvector), LiteLLM, Next.js, Docker, GCP Cloud Run[cite: 1].
+*An AI-powered resume generator with strict fact-grounding guardrails to prevent hallucination.*
+- **Key Highlights:** Engineered a `Career Brain` fact store with `pgvector` retrieval; built a grounding-guard that falls back to deterministic generation if the LLM references unverifiable experience. Refactored a 2,500-line monolithic router into clean domain services.
+- **Tech Stack:** Python, FastAPI, PostgreSQL (JSONB + pgvector), LiteLLM, Next.js, Docker, GCP Cloud Run.
 
 #### 🤖 **Interactive 3D AI Chatbot with Agentic RAG**
-*An asynchronous, stateful 3D AI avatar capable of real-time memory retrieval and conversational interaction.*[cite: 1]
-- **Key Highlights:** Architected a FastAPI & WebSocket backend connecting ChromaDB memory retrieval and **LangGraph** orchestration[cite: 1]. Achieved real-time performance through sentence-level audio buffering and streaming[cite: 1].
-- **Tech Stack:** Python, FastAPI, WebSockets, LangGraph, ChromaDB, Ollama, React Three Fiber[cite: 1].
+*An asynchronous, stateful 3D AI avatar capable of real-time memory retrieval and conversational interaction.*
+- **Key Highlights:** Architected a FastAPI & WebSocket backend connecting ChromaDB memory retrieval and **LangGraph** orchestration. Achieved real-time performance through sentence-level audio buffering and streaming.
+- **Tech Stack:** Python, FastAPI, WebSockets, LangGraph, ChromaDB, Ollama, React Three Fiber.
 
 #### 📑 **Vietnamese OCR & NLP Document Intelligence Research**
-*Deep learning research for high-accuracy Vietnamese text recognition from noisy document images.*[cite: 1]
-- **Key Highlights:** Architected a hybrid model combining a ResNet18 visual encoder with a 6-layer Transformer decoder (8 attention heads) to overcome Vietnamese diacritics and character alignment challenges[cite: 1]. Trained on a 10,000-sample dataset across a 233-character vocabulary[cite: 1], boosting validation accuracy from **17.55% to 63.18%**[cite: 1].
-- **Tech Stack:** Python, PyTorch, ResNet18, Transformer Decoder, NLP, ONNX[cite: 1].
+*Deep learning research for high-accuracy Vietnamese text recognition from noisy document images.*
+- **Key Highlights:** Architected a hybrid model combining a ResNet18 visual encoder with a 6-layer Transformer decoder (8 attention heads) to overcome Vietnamese diacritics and character alignment challenges. Trained on a 10,000-sample dataset across a 233-character vocabulary, boosting validation accuracy from **17.55% to 63.18%**.
+- **Tech Stack:** Python, PyTorch, ResNet18, Transformer Decoder, NLP, ONNX.
 
 ---
 
 ### 🏆 Achievements & Certifications
 
-- 🏆 **Top 10** — WebDev Studios Competition (2025)[cite: 1]
-- 📜 **Google Data Analytics Professional Certificate** — Coursera (2025)[cite: 1]
-- 🎓 **B.S. in Computer Science** — Ton Duc Thang University (Major GPA: 8.5 / 10)[cite: 1]
-- 🌐 **English Proficiency** — TOEIC 4-Skills 840/990 (L&R), 270/400 (S&W)[cite: 1]
+- 🏆 **Top 10** — WebDev Studios Competition (2025)
+- 📜 **Google Data Analytics Professional Certificate** — Coursera (2025)
+- 🎓 **B.S. in Computer Science** — Ton Duc Thang University (Major GPA: 8.5 / 10)
+- 🌐 **English Proficiency** — TOEIC 4-Skills 840/990 (L&R), 270/400 (S&W)
 
 ---
 
@@ -88,4 +88,4 @@ My engineering philosophy: **Bring AI models out of notebooks into production-re
 [![Location](https://img.shields.io/badge/Location-Ho_Chi_Minh_City,_Vietnam-red?style=flat&logo=googlemaps&logoColor=white)](#)
 
 ---
-*"Bringing models out of notebooks and into production-ready software."*[cite: 1]
+*"Bringing models out of notebooks and into production-ready software."*
